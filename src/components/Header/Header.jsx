@@ -21,6 +21,45 @@ const Header = () => {
                         </div>
                     </div>
                     {/*========= LOGO END =========*/}
+
+                    {/*========= MENU START =========*/}
+                    <div className="menu">
+                        <ul className="flex items-center gap-10">
+                            <li>
+                                <a
+                                    className="text-smallTextColor font-[600]"
+                                    href="#about"
+                                >
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className="text-smallTextColor font-[600]"
+                                    href="#services"
+                                >
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className="text-smallTextColor font-[600]"
+                                    href="#portfolio"
+                                >
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className="text-smallTextColor font-[600]"
+                                    href="#contact"
+                                >
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    {/*========= MENU END =========*/}
                 </div>
             </div>
         </header>
